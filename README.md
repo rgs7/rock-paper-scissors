@@ -1,15 +1,23 @@
 # Rock Paper Scissors
 
-A simple browser-based Rock Paper Scissors game written in JavaScript.
+A small browser game: you play Rock Paper Scissors against the computer. Pick a move with the buttons; the computer chooses at random. **First player to reach 5 points wins** the match; scores and each round’s outcome show on the page.
 
-## How it works
+## Files
 
-- The game plays 5 rounds against the computer.
-- Your choice is collected with a browser `prompt()`.
-- Round and final results are printed to the browser console.
+| File | Role |
+|------|------|
+| `index.html` | Structure: title, choice buttons, score and result area |
+| `styles.css` | Monochrome layout, centered card, typography |
+| `javascript.js` | Game logic, DOM updates, win detection |
 
-## Run the project
+## How to run
 
-1. Open `index.html` in your browser.
-2. Enter `rock`, `paper`, or `scissors` when prompted.
-3. Open DevTools Console to view round-by-round output and the final winner.
+Open `index.html` in a modern browser (double-click the file or use “Open with…” from your file manager). No build step or server is required.
+
+## Rules
+
+- **Rock** beats scissors, **paper** beats rock, **scissors** beats paper.
+- Same choice as the computer is a tie; no point is awarded.
+- When either side reaches 5 points, an alert names the winner and the scores reset for a new match.
+
+🌐 Live site: [rgs7.github.io/rock-paper-scissors](https://rgs7.github.io/rock-paper-scissors/)
