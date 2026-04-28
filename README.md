@@ -20,4 +20,4 @@ Open `index.html` in a modern browser (double-click the file or use “Open with
 - Same choice as the computer is a tie; no point is awarded.
 - When either side reaches 5 points, an alert names the winner and the scores reset for a new match.
 
-🌐 Live site: [rgs7.github.io/rock-paper-scissors](https://rgs7.github.io/rock-paper-scissors/)
+🌐 Live site: [Rock Paper Scissors](https://rgs7.github.io/rock-paper-scissors/)
