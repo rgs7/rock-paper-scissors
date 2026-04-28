@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
     <script src="javascript.js" defer></script>
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
-    <div class="score">
-        <p>Your Score: <span id="humanScore">0</span></p>
-        <p>Computer Score: <span id="computerScore">0</span></p>
-        <p id="result"></p>
-    </div>
+    <main class="game">
+        <h1>Rock Paper Scissors</h1>
+        <p class="tagline">First to 5 wins.</p>
+        <div class="choices">
+            <button type="button" id="rock">Rock</button>
+            <button type="button" id="paper">Paper</button>
+            <button type="button" id="scissors">Scissors</button>
+        </div>
+        <div class="score">
+            <p>Your score: <span id="humanScore">0</span></p>
+            <p>Computer score: <span id="computerScore">0</span></p>
+            <p id="result" aria-live="polite"></p>
+        </div>
+    </main>
 </body>
 </html>
